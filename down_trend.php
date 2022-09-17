@@ -2,7 +2,7 @@
 include("header.php");
 include("config.php");
 
-$sql = "SELECT * from trending  order by positions_moved desc";
+$sql = "SELECT * from trending_down order by positions_moved desc";
 $result = $conn->query($sql);
 
 ?>
